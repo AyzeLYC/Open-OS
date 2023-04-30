@@ -3,6 +3,11 @@
 
 namespace encryption {
     
+    unsigned int aes256cbc(sring input, string password) {
+        
+        
+        
+    };
     unsigned int caesarCode(string input, string number) {
         
         string output;
