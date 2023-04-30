@@ -26,5 +26,30 @@ namespace user {
         };
         
     };
+    unsigned int GetUserCpuName() {
+        
+        
+        
+    };
+    unsigned int GetUserCpuCoresAmount() {
+        
+        
+        
+    };
+    unsigned int GetUserCpuThreadsAmount() {
+        
+        
+        
+    };
+    unsigned int GetUserGpuName() {
+        
+        
+        
+    };
+    unsigned int GetUserGpuThreadsAmount() {
+        
+        
+        
+    };
     
 }
