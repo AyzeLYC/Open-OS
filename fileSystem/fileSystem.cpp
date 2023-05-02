@@ -6,7 +6,18 @@ namespace fs {
         
         struct metadatas {
             
-            string name;
+            uint8_t signature = 89 50 4E 47 0D 0A 1A 0A;
+            string width,
+                   height;
+            uint4_t bitsDepth;
+            uint3_t colorType;
+            uint1_t compressionMethod,
+                    filteringMethod,
+                    interlacingMethod;
+            string lastModificationDate[5];
+                   colorsPalette,
+                   pixelsColor[width * height],
+                   imageTrailer;
             
         }
         string datas;
