@@ -14,13 +14,15 @@ namespace fs {
             uint1_t compressionMethod,
                     filteringMethod,
                     interlacingMethod;
-            string lastModificationDate[5];
-                   colorsPalette,
-                   pixelsColor[width * height],
-                   imageTrailer;
             
         }
-        string datas;
+        string lastModificationDate[5],
+               internationalTextualData,
+               textualData,
+               compressedTextualData,
+               colorsPalette,
+               pixelsColor[metadatas.width * metadatas.height],
+               imageTrailer;
         
     }
     struct jpgFileDatas {
