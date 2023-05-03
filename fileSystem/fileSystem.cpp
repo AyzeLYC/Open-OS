@@ -1,6 +1,57 @@
-#include <fstream>
+#include <fstream>+-+-+
 
 namespace fs {
+    
+    struct txtFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
+    struct odxFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
+    struct pdfFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
+    struct docxFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
+    struct dfxFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
     
     struct pngFileDatas {
         
