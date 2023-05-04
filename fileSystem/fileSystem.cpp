@@ -149,6 +149,16 @@ namespace fs {
         string datas;
         
     }
+    struct blendFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
     struct fbxFileDatas {
         
         struct metadatas {
