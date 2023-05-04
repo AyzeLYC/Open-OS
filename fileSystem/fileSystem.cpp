@@ -1,4 +1,4 @@
-#include <fstream>+-+-+
+#include <fstream>
 
 namespace fs {
     
@@ -133,6 +133,98 @@ namespace fs {
         struct metadatas {
             
             string name;
+            
+        }
+        string datas;
+        
+    }
+    
+    struct threedsFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
+    struct fbxFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
+    struct maxFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
+    struct mtlFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
+    struct objFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
+    struct stlFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
+    struct stpFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
+    struct gitfFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
+    
+    struct grblFileDatas {
+        
+        struct metadatas {
+            
+            
             
         }
         string datas;
