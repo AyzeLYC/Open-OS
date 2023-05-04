@@ -169,6 +169,16 @@ namespace fs {
         string datas;
         
     }
+    struct FCStfFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
     struct maxFileDatas {
         
         struct metadatas {
