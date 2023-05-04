@@ -149,6 +149,16 @@ namespace fs {
         string datas;
         
     }
+    struct amfFileDatas {
+        
+        struct metadatas {
+            
+            
+            
+        }
+        string datas;
+        
+    }
     struct blendFileDatas {
         
         struct metadatas {
