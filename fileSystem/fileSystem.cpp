@@ -57,7 +57,7 @@ namespace fs {
         
         struct metadatas {
             
-            uint8_t signature = 0x89504E470D0A1A0A;
+            uint8_t signature;
             string width,
                    height;
             uint4_t bitsDepth;
