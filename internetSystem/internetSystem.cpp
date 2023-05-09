@@ -64,7 +64,7 @@ namespace internet {
         
         
     };
-    unsigned int send() {
+    unsigned int send(socketDatas socket, string datas) {
         
         
         
