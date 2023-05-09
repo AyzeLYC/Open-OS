@@ -24,8 +24,18 @@ namespace internet {
         
         
     }
+    struct socketListenDatas {
+        
+        
+        
+    }
+    struct socketAcceptDatas {
+        
+        
+        
+    }
     
-    map<string, socketDatas> sockets;
+    map<string, string[socketAddress, socketDatas, socketBindDatas, socketListenDatas, socketAcceptDatas[]]> sockets;
     
     unsigned int socket(int domain, string type, uint8_t protocol) {
         
