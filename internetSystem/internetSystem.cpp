@@ -15,6 +15,11 @@ namespace internet {
         
         
     };
+    unsigned int connect() {
+        
+        
+        
+    };
     unsigned int listen() {
         
         
