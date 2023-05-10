@@ -10,30 +10,29 @@ namespace internet {
         string address;
         uint1_t port;
         
-    }
-    
+    };
     struct socketDatas {
         
         int domain,
         string type;
         uint1_t protocol;
         
-    }
+    };
     struct socketBindDatas {
         
         
         
-    }
+    };
     struct socketListenDatas {
         
         
         
-    }
+    };
     struct socketAcceptDatas {
         
         
         
-    }
+    };
     
     map<string, string[socketAddress, socketDatas, socketBindDatas, socketListenDatas, socketAcceptDatas[]]> sockets;
     
