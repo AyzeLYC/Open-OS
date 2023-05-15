@@ -36,6 +36,22 @@ namespace interface {
             
         };
         
+        unsigned int start() {
+            
+            
+            
+        };
+        unsigned int pause() {
+            
+            
+            
+        };
+        unsigned int stop() {
+            
+            
+            
+        };
+        
     };
     
 }
