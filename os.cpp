@@ -12,6 +12,9 @@
 
 namespace os {
     
+    uint1_t running;
+    uint16_t refreshingrate;
+    
     string hddFilesDatas,
            osFilesDatas,
            usersFilesDatas[],
@@ -41,5 +44,12 @@ namespace os {
     };
     
     start();
+    running = 1;
+    
+    while (running == 1) {
+        
+        sleep(1 / refreshingrate);
+        
+    };
     
 }
