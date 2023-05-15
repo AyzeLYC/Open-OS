@@ -23,16 +23,18 @@ namespace os {
         threading.start();
         user.start();
         cli.start();
-        interface.start();
+        interface.application.start();
+        interface.system.start();
         audio.start();
         
     };
     unsigned int stop() {
         
         audio.stop();
-        interface.stop();
+        interface.application.stop();
         cli.stop();
         user.stop();
+        interface.system.stop();
         threading.stop();
         fs.stop();
         
