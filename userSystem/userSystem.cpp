@@ -25,7 +25,33 @@ namespace user {
     
     string CurrentUserid;
     
-    unsigned int parameters(string UserId) {
+    unsigned int CreateUser(UserDatas USERDATAS) {
+        
+        
+        
+    };
+    
+    unsigned int ChangeUserCpuDedicatedCores(string UserId, string CoresAmount) {
+        
+        
+        
+    };
+    unsigned int ChangeUserCpuDedicatedThreads(string UserId, string ThreadAmount) {
+        
+        
+        
+    };
+    unsigned int ChangeUserDedicatedGpuThreadsAmount(string UserId, string ThreadsAmount) {
+        
+        
+        
+    };
+    unsigned int ChangeUserName(string UserId, string username) {
+        
+        
+        
+    };
+    unsigned int ChangeUserParameters(string UserId) {
         
         
         
@@ -33,7 +59,32 @@ namespace user {
     
     unsigned int GetCurrentUserId() {
         
-        return userid;
+        return CurrentUserId;
+        
+    };
+    unsigned int GetUserDedicatedCpuName(string UserId) {
+        
+        
+        
+    };
+    unsigned int GetUserDedicatedCpuCoresAmount(string UserId) {
+        
+        
+        
+    };
+    unsigned int GetUserDedicatedCpuThreadsAmount(string UserId) {
+        
+        
+        
+    };
+    unsigned int GetUserDedicatedGpuName(string UserId) {
+        
+        
+        
+    };
+    unsigned int GetUserDedicatedGpuThreadsAmount(string UserId) {
+        
+        
         
     };
     unsigned int GetUserName(string UserId) {
@@ -51,27 +102,7 @@ namespace user {
         };
         
     };
-    unsigned int GetUserCpuName() {
-        
-        
-        
-    };
-    unsigned int GetUserCpuCoresAmount() {
-        
-        
-        
-    };
-    unsigned int GetUserCpuThreadsAmount() {
-        
-        
-        
-    };
-    unsigned int GetUserGpuName() {
-        
-        
-        
-    };
-    unsigned int GetUserGpuThreadsAmount() {
+    unsigned int GetUserParameters(string UserId) {
         
         
         
