@@ -1,3 +1,4 @@
+#include <map>
 #include <string>
 
 #include "../fileSystem/fileSystem.cpp"
@@ -11,6 +12,8 @@ namespace user {
         string files[];
         
     }
+    
+    UserDatas UserDatas[];
     
     string CurrentUserid;
     
