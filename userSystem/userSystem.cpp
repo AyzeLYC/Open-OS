@@ -14,18 +14,18 @@ namespace user {
         uint7_t audioLevel;
         
     };
-    struct UserDatas {
+    struct UserData {
         
         UserParameters USERPARAMETERS;
         string files[];
         
     };
     
-    UserDatas UserDatas[];
+    UserData UserDatas[];
     
     string CurrentUserid;
     
-    unsigned int CreateUser(UserDatas USERDATAS) {
+    unsigned int CreateUser(UserData USERDATAS) {
         
         
         
@@ -103,6 +103,12 @@ namespace user {
         
     };
     unsigned int GetUserParameters(string UserId) {
+        
+        
+        
+    };
+    
+    unsigned int SaveUserData(string UserId, UserData USERDATAS) {
         
         
         
