@@ -10,8 +10,10 @@ namespace user {
         
         uint16_t refreshingrate;
         string username;
-        uint1_t userRights; // 0 = non admin ( can create its own files, folders and modify its parameters but can't modify the other users files, folder and parameters ), 1 = admin ( can create its own files, folderd and modify its parameters and create some filders, folders and modoify the other users parameters )
+        uint2_t userRights; // 0 = temporary user ( the files are delete after the user has stopped its session ), 1 = restricted user ( can only access specific files and folders, can't change its parameters, can't get the access to the network datas ), 2 = non restricted and non admin user ( can create its own files, folders and modify its parameters but can't modify the other users files, folder and parameters ), 3 = admin user ( can create its own files, folderd and modify its parameters and create some filders, folders and modoify the other users parameters )
         uint7_t audioLevel;
+        string screenXSize,
+               screenYSize;
         
     };
     struct UserData {
@@ -109,6 +111,11 @@ namespace user {
     };
     
     unsigned int SaveUserData(string UserId, UserData USERDATAS) {
+        
+        
+        
+    };
+    unsigned int SaveUsersData() {
         
         
         
