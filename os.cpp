@@ -3,6 +3,7 @@
 #include "audioSystem/audioSystem.cpp"
 #include "commandlineSystem/commandlineSystem.cpp"
 #include "decryptionSystem/decryptionSystem.cpp"
+#include "derivationSystem/derivationSystem.cpp"
 #include "encryptionSystem/encryptionSystem.cpp"
 #include "fileSystem/fileSystem.cpp"
 #include "hashingSystem/hashingSystem.cpp"
