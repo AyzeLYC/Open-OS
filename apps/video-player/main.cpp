@@ -1,16 +1,21 @@
 #include <fstream>
 #include <string>
 
+#include <os.cpp>
+
 namespace main {
     
-    unsigned int read() {
+    uint1_t playingVideo = 0;
+    
+    unsigned int play(string videoContent) {
         
+        playingVideo = 1;
         
-        
-    };
-    unsigned int play() {
-        
-        
+        while(playingVideo == 1) {
+            
+            
+            
+        }
         
     };
     
