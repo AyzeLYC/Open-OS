@@ -18,7 +18,7 @@ namespace hashing {
         
         
     };
-    string sha512() {
+    unsigned int sha512() {
         
         
         
